@@ -1,0 +1,940 @@
+/* All eboohotel css, By jillur */
+
+
+/* Start Header CSS */
+
+.eboologo img {
+    height: 42px;
+    width: auto;
+}
+
+.header_area {
+    position: relative;
+}
+
+
+/* Header top */
+
+.header-top ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.header-top-nav {}
+
+.top-help-link li {
+    display: inline-block;
+}
+
+.social-icon-list li {
+    display: inline-block;
+}
+
+
+/* Header top nav */
+
+.header-top {
+    background: #ecf0f1;
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(129, 129, 120, .2);
+}
+
+.header-top-nav li {
+    display: inline-block;
+}
+
+.header-top-nav li a {
+    color: #333;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    border-right: 1px solid#ddd;
+}
+
+.header-top-nav li:last-child a {
+    border: none;
+}
+
+.top-social-icons.text-right {
+    margin-left: 20px;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+.top-social-icons.text-right {
+    margin-left: 20px;
+    border-left: 1px solid #ddd;
+    padding-left: 15px;
+}
+
+.social-icon-list li a {
+    color: #555;
+    padding: 0 10px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.top-help-link li a {
+    color: #333;
+    background: transparent;
+    border-left: 1px solid#ddd;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.top-help-link li:first-child a {
+    border: none;
+}
+
+
+/* Primary Header */
+
+.primary-header {
+    padding: 10px 0;
+    background: #f7fdfc;
+    border-bottom: 1px solid#dddd;
+}
+
+.navbar-brand img {
+    display: block;
+}
+
+.left-navbar-icon {
+    display: inline-block;
+}
+
+.primary-header-logo {
+    max-width: 380px;
+}
+
+.left-navbar-icon {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 9px;
+}
+
+.header-right-panels {
+    max-width: 455px;
+    position: relative;
+    top: 4px;
+}
+
+.header-search-field {
+    position: relative;
+}
+
+.form-control.hotel-search-fild {
+    height: calc(1.5em + 1.5rem + 2px);
+}
+
+.header-search-submit-icon {
+    position: absolute;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(129, 129, 120, .8);
+}
+
+.nofication-toggle-btn {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    position: relative;
+    color: #263b5e;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nofication-toggle-btn:focus {
+    outline: 0;
+}
+
+.nofication-toggle-btn span {
+    position: absolute;
+    top: -11px;
+    right: -2px;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, rgb(245, 81, 95) 0%, rgb(159, 4, 27) 100%) repeat scroll 0% 0%;
+    color: #fff;
+    height: 22px;
+    font-size: 13px;
+    width: 23px;
+    border-radius: 50%;
+    line-height: 23px;
+    text-align: center;
+}
+
+.nofication-toggle-btn::before {
+    content: "";
+    height: 23px;
+    display: inline-block;
+    background: #ddd;
+    position: absolute;
+    width: 1px;
+    right: 75px;
+    top: 0;
+}
+
+.header-right-item:first-child .nofication-toggle-btn::before {
+    display: none;
+}
+
+
+/*  Header Notification Cart  */
+
+.toggle-hover-box {
+    position: relative;
+}
+
+.toggle-hover-box::before {
+    position: absolute;
+    content: "";
+    right: 29px;
+    top: -11px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 12px 12px;
+    border-color: transparent transparent #ddd transparent;
+}
+
+.header-right-item.dropdown .toggle-hover-box {
+    border: none;
+    background: transparent;
+    transform: translate(0) !important;
+    width: 390px;
+    padding: 0;
+    top: 45px !important;
+    left: inherit !important;
+    right: -22px;
+}
+
+
+/*  Banner Search  */
+
+.banner_top {
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.home-banner-search {
+    max-width: 800px;
+    margin: auto;
+}
+
+.seo_home_area {
+    background: url(../img/eboohotel/banner-cover1.jpg) no-repeat bottom center;
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 140px;
+    margin-bottom: 0;
+    height: 545px;
+}
+.seo_banner_content p{
+    margin-bottom: 32px;
+}
+.home_bubble .triangle.b_eight {
+    left: -25px;
+    bottom: 0;
+}
+
+.home-banner-search .form-control.hotel-search-fild {
+    height: calc(1.5em + 1.5rem + 2px);
+}
+
+
+/* How it work section */
+
+.agency_featured_area {
+    padding-top: 160px;
+    background: #fff;
+}
+
+
+/* Footer CSS */
+
+.new_footer_area .footer_bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    position: relative;
+    top: -6px;
+}
+
+.new_footer_top .footer_bg {
+    height: 242px;
+}
+
+.new_footer_top {
+    padding: 120px 0px 235px;
+    position: relative;
+}
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+*******************************/
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header_area .modal-body {
+    padding: 0;
+}
+
+
+/*Left*/
+
+.modal.left.fade .modal-dialog {
+    left: -400px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.show .modal-dialog {
+    left: 0 !important;
+}
+
+
+/*Right*/
+
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+
+/* ----- MODAL STYLE ----- */
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+
+/*  Bootstrap Popup Modal  */
+
+body .modal-backdrop.show {
+    opacity: .75;
+}
+html body.modal-open {
+    overflow: hidden !important;
+    padding-right: 17px !important;
+}
+/* #ebooNavbar {
+    background: rgba(0, 0, 0, .6) !important;
+    overflow: hidden !important;
+} */
+
+.header-navbar-icon:focus,
+.header-navbar-icon:active {
+    outline: 0 !important;
+}
+
+.header-navbar-icon {
+    border: none;
+    background: transparent;
+    color: #263b5e;
+}
+
+
+/* Navbar Cross Button CSS */
+
+.navbar-close-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: #000;
+}
+
+.navbar-close-btn::after,
+.navbar-close-btn::before {
+    right: 0;
+}
+
+.navbar-close-btn::after,
+.navbar-close-btn::before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin-top: -1px;
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    transition: background-color .2s ease-in-out, width .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .2s ease-in-out, width .2s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .2s ease-in-out, width .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.navbar-close-btn::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.navbar-close-btn::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.navbar-close-btn:hover::after,
+.navbar-close-btn:hover::before {
+    transform: rotate(0);
+}
+
+
+/* Left Toggle Navbar Style */
+
+.left-toggle-navbar {}
+
+.navbar-menu-items {}
+
+.navbar-menu-items li {
+    display: block;
+    position: relative;
+}
+
+.navbar-menu-items li a {
+    display: block;
+    border-bottom: 1px solid rgba(129, 129, 120, .2);
+    padding: 10px 20px;
+    color: #263b5e;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.navbar-menu-items li a:hover {
+    background: #fafafa;
+}
+
+.navbar-menu-items li ul li a {
+    padding-left: 35px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+.navbar-menu-items li:last-child a {
+    border-bottom: none;
+}
+
+/* Arrow Down */
+
+.dropdown-toggle::after {
+    color: #ddd;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    border-top: 12px solid #ddd;
+    border-right: 8px solid transparent;
+    border-bottom: 0;
+    border-left: 8px solid transparent;
+    transition: .3s;
+}
+
+
+/* Arrow Right */
+
+.dropdown-toggle.collapsed::after {
+    border-top: 8px solid transparent;
+    border-right: 0px;
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #ddd;
+}
+/* Navbar bottom */
+.navbar-download-btn {
+    margin-top: 30px;
+}
+.navbar-download-btn li{
+    text-align: center;
+}
+.navbar-download-btn li a{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 50px;
+    color: #fff;;
+    background-size: 300% 100%;
+    width: 200px;
+    font-size: 16px;
+}
+.navbar-download-btn li a.googleAndroid {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.navbar-download-btn li a.AppleStore {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a,#2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.navbar-download-btn li a:hover {
+	background-position: 100% 0;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.navbar-footer {
+    padding: 0 20px;
+}
+.navbar-footer p{
+    font-size: 14px;
+}
+.navbar-help-links li{
+    display: inline-block;
+}
+.navbar-help-links li a {
+    display: block;
+    color: #333;
+    padding-right: 18px;
+    position: relative;
+    transition: .3s;
+}
+.navbar-help-links li a:hover{
+    color: #f7921d;
+}
+.navbar-help-links li a::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 58%;
+    height: 1px;
+    width: 7px;
+    background: #333;
+}
+/* Mobile And email */
+.left-navbar-number ul {
+	padding-left: 0;
+}
+.left-navbar-number li {
+	list-style: none;
+	border-bottom: 1px solid #eee;
+	padding: 11px 21px;
+	font-size: 17px;
+}
+.left-navbar-number li:last-child {
+    border: none !important;
+}
+.left-navbar-number li span {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.left-navbar-number li a {
+	color: #263b5e;
+	display: inline-block;
+	padding-left: 7px;
+	position: relative;
+	top: -2px;
+}
+
+
+/*  Notification Login  */
+/*  Notification Login  */
+
+.user-login-form form {
+    margin-bottom: 15px;
+}
+.user-login-form .input-group-addon i {
+    font-size: 18px;
+    margin-top: 2px;
+}
+.user-login-btn {
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 38px;
+    border-radius: 6px;
+}
+.social-login-btn .btn {
+	border: none;
+	margin: 10px 5px 0;
+	opacity: 1;
+	width: 47%;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: capitalize;
+	padding: 12px 22px;
+	border-radius: 5px;
+}
+.login-forgot-password, 
+.forgot-password-section label {
+	font-size: 15px;
+	position: relative;
+}
+.forgot-password-section input[type="checkbox"] {
+    position: relative;
+    top: 1px;
+}
+.social-login-btn a i {
+	float: left;
+	padding-top: 0px;
+	border-right: 1px solid rgba(255,255,255,0.5);
+	padding-right: 8px;
+	position: relative;
+	top: 5px;
+}
+.social-login-btn .btn:hover {
+    opacity: 0.9;
+}
+.social-login-btn .btn-primary {
+    background: #507cc0;
+}
+.social-login-btn .btn-info {
+    background: #64ccf1;
+}
+.social-login-btn .btn-danger {
+    background: #df4930;
+}
+.or-seperator {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: -5px;
+}
+.registration-form-also .or-seperator {
+	margin-top: 24px;
+	margin-bottom: -10px;
+}
+.or-seperator span {
+    padding: 0 10px;
+    background: #fff;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+.user-login-form p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.user-login-form .input-group-addon {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	color: #555;
+	text-align: center;
+	background-color: #eee;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    width: 42px;
+}
+
+
+/*  Wishlist Notification Design  */
+.card.nTcard-wish-list .card-body {
+    height: 460px !important;
+    overflow-y: scroll;
+}
+
+.toggle-hover-box img{
+    max-width: 100%;
+}
+.ntWishlist-text h2 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.ntWishlist-image {
+    width: 100px;
+    margin-right: 10px;
+}
+.ntWishlist-text {
+    width: 100%;
+}
+.ntWishlist-image img {
+    border-radius: 10px !important;
+}
+.ntWishlist-description {
+    margin-bottom: 0;
+    height: 28px;
+    overflow: hidden;
+}
+
+.ntWishlist-price-reviews{
+    position: relative;
+}
+.ntWishlist-review{
+    position: absolute;
+    right: 0;
+    top: -4px;
+}
+.ntWishlist-review .RatingStat-raterCount-11 {
+    display: none;
+}
+.ntWishlist-review .RatingStat-chart-7 {
+    display: none;
+}
+.ntWishlist-review .RatingStat-average-6 {
+    display: none;
+}
+.ntWishlist-review .RatingStat-averageBox-5 {
+    padding-top: 0;
+}
+
+.ntWishlist-review .RatingStat-card-2 {
+    margin-top: 0;
+}
+.ntWishlist-review .RatingStat-bigBox-3 {
+    height: 30px !important;
+}
+/* Wishlist Footer */
+.ntWishlist-footer {
+    margin-top: 8px;
+}
+.ntWishlist-item {
+	border: 1px solid rgba(129, 129, 120, .2);
+	padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    padding-right: 6px;
+}
+.ntWishlist-item:last-child{
+    /* margin-bottom: 0; */
+}
+.ntWishlist-actions {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.ntWishlist-hotel-price {
+    font-size: 17px;
+    margin-top: 4px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.ntWishlist-text h2 {
+    font-size: 14px;
+    height: 18px;
+    overflow: hidden;
+}
+.ntWishlist-hotel-price span {
+    font-size: 12px;
+}
+.ntWishlist-actions li{
+    text-align: center;
+    list-style: none;
+}
+.ntWishlist-actions li a {
+	display: block;
+	color: #0795ea;
+	border: 1px solid #ebebeb;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px 5px;
+    background:#fafafa;
+}
+.ntWishlist-actions li:last-child a{
+    /* margin-right: 0; */
+}
+.ntWishlist-actions li a:hover {
+    background-color: #f7f7f7;
+    color: #0795ea;
+}
+.ntWishlist-actions li.ntWishlist-close a {
+    color: #ff7979;
+}
+.ntWishlist-actions li:last-child a {
+    margin-right: 4px;
+}
+
+/*  If No Wish List Style  */
+.card.nTcard-ifno-wish-list .card-body{
+    height: 300px;
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.ifno-ntWishlist-wrapper{
+	width: 100%;
+	margin-top: 0;
+}
+.ifno-ntWishlist-wrapper img {
+    width: 90px;
+}
+.ifno-ntWishlist-wrapper h3,
+.ifno-UserMessageIfNo-wrapper h3{
+    font-size: 16px;
+    color: #616161;
+    margin-top: 10px;
+}
+
+.ifno-UserMessageIfNo-wrapper{
+    width: 100%;
+	margin-top: 0;
+}
+.ifno-UserMessageIfNo-wrapper img {
+    width: 150px;
+}
+
+.nTNofiticationIfNo .card-body {
+    height: 300px;
+    /* background-image: url(./../img/eboohotel/panguin_img_one.png); */
+	background-size: 22%;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+/* Notification */
+.nTcard-notification .card-body {
+    height: 450px;
+    overflow-y: scroll;
+}
+.notification-image {
+    width: 100px;
+    margin-right: 10px;
+}
+.notification-text{
+    width: 100%;
+    position: relative;
+}
+.notification-image img {
+    border-radius: 10px;
+}
+.notification-text p {
+	position: relative;
+	top: -5px;
+	line-height: 1.6em;
+	font-size: 14px;
+	margin-bottom: 0;
+	height: 62px;
+	overflow: hidden;
+}
+.notification-item {
+	border-top: 1px solid rgba(129, 129, 120, .2);
+	padding-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 12px;
+	padding-right: 6px;
+	border-bottom: 1px solid rgba(129, 129, 120, .2);
+	padding-bottom: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(129, 129, 120, .1);
+	padding-left: 5px;
+}
+.notification-image a {
+    display: block;
+}
+.notification-time {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+/* Header Message */
+.nTcard-message .card-body {
+    height: 450px;
+    overflow-y: scroll;
+}
+.header-message-item {
+	border: 1px solid rgba(129, 129, 120, .2);
+	padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    padding-right: 6px;
+}
+.header-message-image {
+    width: 100px;
+    margin-right: 10px;
+}
+.header-message-text{
+    width: 100%;
+    position: relative;
+}
+.header-message-image img {
+    border-radius: 10px;
+    /* border: 3px solid #2980b9; */
+}
+.header-message-hotel-location {
+	position: relative;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.header-message-hotel-name {
+	font-size: 14px;
+	height: 20px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.header-message-time {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+.header-recent-message {
+	margin-bottom: 0;
+	line-height: 1.5em;
+	font-size: 14px;
+	height: 42px;
+    overflow: hidden;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+
+.ifhotelownarsend,
+.ifcustomersend{
+    position: relative;
+}
+.ifcustomersend::before {
+	content: "";
+	position: absolute;
+    right: -25px;
+    bottom: 21px;
+	height: 22px;
+    width: 22px;
+    background-image: url("./../img/eboohotel/customer-send-arrow.png");
+	background-size: 14px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.ifhotelownarsend::after {
+	content: "";
+	position: absolute;
+    right: -24px;
+    bottom: 21px;
+	height: 22px;
+	width: 22px;
+    background-image: url("./../img/eboohotel/hotel-owner-send.png");
+	background-size: 14px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
